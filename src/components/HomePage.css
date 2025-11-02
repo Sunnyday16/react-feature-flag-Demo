@@ -1,0 +1,47 @@
+.HomePage {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  padding: 2rem;
+  background: linear-gradient(180deg, #f5f7fb 0%, #ffffff 100%);
+  color: #1f2933;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.HomePage__hero {
+  max-width: 720px;
+  text-align: center;
+}
+
+.HomePage__hero h1 {
+  font-size: 2.75rem;
+  margin-bottom: 1rem;
+}
+
+.HomePage__hero p {
+  font-size: 1.1rem;
+  line-height: 1.6;
+  margin: 0 auto;
+}
+
+.HomePage__instructions {
+  background: #ffffff;
+  border-radius: 1rem;
+  box-shadow: 0 10px 30px rgba(15, 23, 42, 0.1);
+  padding: 2rem;
+  max-width: 680px;
+  width: 100%;
+}
+
+.HomePage__instructions h2 {
+  margin-bottom: 1rem;
+}
+
+.HomePage__instructions ol {
+  margin: 0;
+  padding-left: 1.5rem;
+  line-height: 1.8;
+}
